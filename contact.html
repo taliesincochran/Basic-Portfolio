@@ -1,24 +1,58 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>contact</title>
-	</head>
-	<body>
-	<div>
+<head>
+	<title>Portfolio: About Me</title>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+	<link rel='stylesheet' type='text/css' href='reset.css'>
+</head>
 
-		<header>
-			<h1>Taliesin Cochran</h1>
-		</header>
-		<nav>
-		<ul>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/index.html>about</a> </li>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/portfolio.html>portfolio</a> </li>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/contact.html>contact</a> </li>
-		</nav>
+<body>
+	<!--Setup of the top line of the webpage -->
+	<div id= 'top'>
+		<header id= 'myname'>Taliesin Cochran</header>
+			<nav>
+				<ul id= 'navigation'>
+					<li id= 'nav1'> <a href='index.html'>about</a> </li>
+					<li id= 'nav2'> <a href='portfolio.html'>portfolio</a> </li>
+					<li id= 'nav3'> <a href='contact.html'>contact</a> </li>
+				</ul>
+			</nav>
+		
+	</div>
+	<div class= 'clearfix'></div>
 	<div>
-	<section>
-	</section>
-	<footer>
+		<div>
+			<section id= 'contactbox'>
+				<h2 id= 'section-header'>Contact</h2>
+				<div>
+					<form action='mailto:tdcochran2@gmail.com' method='post' enctype='text/plaintext'> 
+						<input type="text" name='name' id='name'><br>Name<br>
+						<input type="text" name='email' id='email'><br>email<br>
+						<input type="text" id='message'><br>Message<br>
+						<input type='submit' value="Send">
+					</form>
+				</div>	
+			</section>
+		</div>
+		<aside id= 'sidebar'>
+			<h3 id='connect'>Connect with Me</h3>
+			<ul id= 'icon'>
+				<li>
+					<a href=https://github.com/taliesincochran><img src=assets/images/github.svg width= 42px heigth=42px></a>
+				</li>
+				<li>
+					<a href=https://www.linkedin.com/in/t-d-cochran-029a1011><img src=assets/images/linkedin.svg alt='linkedin' width=42px height=42px></a>
+				</li>
+				<li>
+					<a href=https://stackoverflow.com/users/8229479/taliesin-cochran><img src=assets/images/stackoverflow.svg alt='linkedin' width=42px height=42px></a>
+				</li>
+			</ul>
+		</aside>	
+	</div>
+	<div class= 'clearfix'>
+	</div>
+	<footer><p>© Copyright 2016 Taliesin Cochran</p>
 	</footer>
 </body>
 </html>

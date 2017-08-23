@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>about</title>
+	<title>Portfolio: About Me</title>
+	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
 </head>
+
 <body>
-<header>
-			<h1>Taliesin Cochran</h1>
-		</header>
-		<nav>
-		<ul>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/index.html>about</a> </li>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/portfolio.html>portfolio</a> </li>
-			<li> <a href=https://github.com/taliesincochran/Basic-Portfolio/blob/master/contact.html>contact</a> </li>
+	<!--Setup of the top line of the webpage -->
+	<header id= 'top'>
+		<h2 id= 'myname'>Taliesin Cochran</h2>
+		<nav id= 'navigation'>
+			<ul id=navlist>
+				<li id= 'nav1'> 
+					<a href='index.html'>about</a> 
+				</li>
+				<li id= 'nav2'> 
+					<a href='portfolio.html'>portfolio</a> 
+				</li>
+				<li id= 'nav2'> 
+					<a href='contact.html'>contact</a> 
+				</li>
+			</ul>
 		</nav>
+	</header>
+	<br>
+	<div id='center'>
+		<section id='main'>
+			<h2 id= 'mainheader'>About Me</h2>
+			<img id='profile' src=assets/images/profile.jpg alt="Taliesin Cochran"> <p class=profiletext>I grew up in rural Stanley County, N.C. on a horse farm. I learned to work hard and to never own a horse. I escaped to the North Carolina School of Math and Science for high school and N.C. State University for college, graduating with a B.S. in Biochemistry.  After that I worked at N.C. State in Dominique Robertson's viral genomics laboratory and then at Catalent Pharma Solutions in stability testing for pharmaceuticals.  I then became a father and stay at home dad, which was the greatest blessing of my life. Being a curious person interested in a variety of subjects, I decided it was time to learn something new, so I enrolled in the Coding Boot Camp at U.N.C. Chapel Hill and I'm learning all sorts of neat things to help me become a full stack developer. </p>
+			
+		</section>
+		
+		<aside id= 'sidebar'>
+			<h3 id='sidebarheader'>Connect with Me</h3>
+			<ul id= 'icon'>
+				<li>
+					<a href=https://github.com/taliesincochran><img src=assets/images/github.svg width= 42px heigth=42px></a>
+				</li>
+				<li>
+					<a href=https://www.linkedin.com/in/t-d-cochran-029a1011><img src=assets/images/linkedin.svg alt='linkedin' width=42px height=42px></a>
+				</li>
+				<li>
+					<a href=https://stackoverflow.com/users/8229479/taliesin-cochran><img src=assets/images/stackoverflow.svg alt='linkedin' width=42px height=42px></a>
+				</li>
+			</ul>
+		</aside>	
+	</div>
+	<div class= 'clearfix'>
+	</div>
+	<footer><p id=copyright>© Copyright 2016 Taliesin Cochran</p>
+	</footer>
 </body>
 </html>

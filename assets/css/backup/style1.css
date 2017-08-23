@@ -1,0 +1,88 @@
+body {
+	background-image: url("../images/background.png");
+	background-repeat: none;
+	margin: 0 auto;
+	} 
+/*To get rid of the bullets.*/
+
+
+	}
+header {
+	background-color: ;
+	position: absolute;
+	overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*Styling the top bar of name and navigation*/
+.navigation {
+	width:8%;
+	height:8%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+	font-color: #;}		
+.nav1 {
+	padding-left: 300px;
+	float: left;
+	}
+.nav2 {
+	position: relative;
+	left: 45px;
+	top: 45 px;
+}
+
+.about {
+	width:650px;
+}
+
+.main {
+	float: left;
+	width: 650px;
+	margin-left:75px;
+}
+
+.profilePic {
+	float: left;
+}
+.contact {
+	float: left;
+	width: 270px;
+
+}
+footer {
+	text-align: center;
+	position: fixed;
+	width: 960px;
+	bottom: 0;
+	background-color: #666666;
+}
+.about {width: 350px;}
+
+.icon1 {
+	position: absolute;
+}
+.icon2 {
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
