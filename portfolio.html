@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Portfolio: About Me</title>
+	<title>Portfolio</title>
 	<meta charset='utf-8'>
+	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
 	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
-	<link rel='stylesheet' type='text/css' href='reset.css'>
 </head>
 
 <body>
 	<!--Setup of the top line of the webpage -->
-	<div id= 'top'>
-		<header id= 'myname'>Taliesin Cochran</header>
-			<nav>
-				<ul id= 'navigation'>
-					<li id= 'nav1'> <a href='index.html'>about</a> </li>
-					<li id= 'nav2'> <a href='portfolio.html'>portfolio</a> </li>
-					<li id= 'nav3'> <a href='contact.html'>contact</a> </li>
-				</ul>
-			</nav>
-		
-	</div>
-	<div class= 'clearfix'></div>
-	<div>
-		<section>
-			<h2 id="section-header">Portfolio</h2>
+<div class='space'>
+	<header id='top' .clearfix>
+		<h2 id='myname'><strong>Taliesin Cochran</strong></h2>
+		<nav id='navigation'>
+			<ul id=navlist>
+				<li class= 'nav1'> 
+					<a href='index.html'>About</a> 
+				</li>
+				<li class= 'nav2'> 
+					<a href='portfolio.html'>Portfolio</a> 
+				</li>
+				<li class= 'nav2'> 
+					<a href='contact.html'>Contact</a> 
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<div id='center' class="clearfix">
+		<section class="portfoliomain">
+			<h2 id="mainheader">Portfolio</h2>
 			<ul id="portfolio-list">
-				<li id='hangman'>
-					<a href="#" img src="assets/images/image1.jpg"> 
+				<li>
+					<a href="#"> <img src="assets/images/image1.jpg" class='images'> </a>
 					<h3>Hangman</h3>
 					</li>
-				<li id="rpg">
-					<a href="#" img src="assets/images/image2.jpg">
+				<li>
+					<a href="#"> <img src="assets/images/image2.jpg" class='images'> </a>
 					<h3>RPG Game</h3></li>
-				<li id="trivia">
-					<a href="#" img src="assets/images/image3.jpg">
+				<li>
+					<a href="#"> <img src="assets/images/image3.jpg" class='images'> </a>
 					<h3>Trivia Game</h3>
 				</li>
-				<li id="rutgers">
-					<a href="#" img src="assets/images/image4.jpg">
+				<li>
+					<a href="#"> <img src="assets/images/image4.jpg" class='images'> </a>
 					<h3>Rutgers Info Widget</h3>
 					</li>
-				<li id="rockps">
-					<a href="#" img src="assets/images/image5.jpg">
-					<h3>Rock Paper Scissors</h3>
-				</li>
-		<aside id= 'sidebar'>
-			<h3 id='connect'>Connect with Me</h3>
-			<ul id= 'icon'>
 				<li>
-					<a href=https://github.com/taliesincochran><img src=assets/images/github.svg width= 42px heigth=42px></a>
-				</li>
+					<a href="#"> <img src="assets/images/image5.jpg" class='images'> </a>
+					<h3>Rock Paper Scissors</h3></li>
+			</ul>
+				</a>
+		<aside id= 'sidebar3'>
+			<h3 id='sidebarheader'><strong>Connect with Me</strong></h3>
+			<ul id= 'icongroup'>
 				<li>
-					<a href=https://www.linkedin.com/in/t-d-cochran-029a1011><img src=assets/images/linkedin.svg alt='linkedin' width=42px height=42px></a>
+					<a class='icon' href=https://github.com/taliesincochran><img src=assets/images/github.svg alt="github" width=60px height=60px></a>
 				</li>
 				<li>
-					<a href=https://stackoverflow.com/users/8229479/taliesin-cochran><img src=assets/images/stackoverflow.svg alt='linkedin' width=42px height=42px></a>
+					<a class='icon' href=https://www.linkedin.com/in/t-d-cochran-029a1011><img src=assets/images/linkedin.svg alt='linkedin' width=60px height=60px></a>
+				</li>
+				<li>
+					<a class='icon' href=https://stackoverflow.com/users/8229479/taliesin-cochran><img src=assets/images/stackoverflow.svg alt='linkedin' width=60px height=60px></a>
 				</li>
 			</ul>
 		</aside>	
+		</section>
 	</div>
-	<div class= 'clearfix'>
-	</div>
-	<footer><p>© Copyright 2016 Taliesin Cochran</p>
+</div>
+	<footer>
+		<div id=copyright><p>© Copyright 2016 Taliesin Cochran</p>
 	</footer>
 </body>
 </html>
