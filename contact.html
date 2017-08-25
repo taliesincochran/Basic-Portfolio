@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 	<meta charset="utf-8">
 	<title>Contact</title>
-	<meta charset='utf-8'>
 	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
 	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
 </head>
 
 <body>
-
-	<!--Setup of the top line of the webpage -->
+		<!--To make sure that there is space between main area and the footer-->
 <div class='space'>
+<!--Setup of the top line of the webpage -->
 	<header id='top' class='clearfix'>
-		<h2 id='myname'><strong class='georgia name'>Taliesin Cochran</strong></h2>
+		<h2 id='myname' class='georgia name'>Taliesin Cochran</h2>
 		<nav id='navigation'>
 			<ul id=navlist>
 				<li class= 'nav1'> 
@@ -28,23 +27,24 @@
 			</ul>
 		</nav>
 	</header>
+	<!--setup of center part of webpage-->
 	<div id="center" class=".clearfix">
 		<section class="contact">
-				<h2 id="mainheader"><p class='georgia'>Contact</p></h2>
+				<h2 id="mainheader" class='georgia'>Contact</h2>
 				<div class="contactbox">
-				<form action="file:///C:/Users/tdcoc/code/Basic-Portfolio/contact.html#" method="post" enctype="text/plaintext">
+				<form action="file:///C:/Users/tdcoc/code/Basic-Portfolio/contact.html#" method="post">
 					<p class="contacttext arial">Name</p>
 					<input type="text" name="name" placeholder=" John Smith">
 					<p class="contacttext arial">email</p>
 					<input type="text" name="email" placeholder=" email">
 					<p class="contacttext arial">Message</p>
-					<textarea type="text" name="message"></textarea>
+					<textarea name="message"></textarea>
 					<input class="submitbutton arial" type="submit" value="Submit">
 				</form>
 			</div>
 		</section>
 		<aside id= 'sidebar2'>
-			<h3 id='sidebarheader'><p class='georgia'>Connect with Me</p></h3>
+			<h3 id='sidebarheader' class='georgia'>Connect with Me</h3>
 			<ul id= 'icongroup'>
 				<li>
 					<a class='icon' href=https://github.com/taliesincochran><img src=assets/images/github.svg alt="github" width=60 height=60></a>
@@ -58,10 +58,9 @@
 			</ul>
 		</aside>	
 	</div>
-	</div>
-	<footer>
-		<div id=copyright><p rlass='arial'>© Copyright 2016 Taliesin Cochran</p></div>
-	</footer>
 </div>
+	<footer>
+		<div id=copyright><p class='arial'>© Copyright 2016 Taliesin Cochran</p></div>
+	</footer>
 </body>
 </html>

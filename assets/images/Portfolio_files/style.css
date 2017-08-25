@@ -50,7 +50,8 @@ p {
 	position: absolute;
 	top: 0px;
 	overflow: hidden;
-	z-index: 100	
+	z-index: 100
+	
 }
 #myname {
 	background: #4aaaa5;	
@@ -62,10 +63,12 @@ p {
     border-bottom-color: #cccccc;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    margin-left: 155px;	
+    margin-left: 155px;
+	
 }
 .name {
 	font-size: 24.5px;
+
 }
 /*stying the navigation bar*/
 #navigation {
@@ -82,14 +85,14 @@ p {
 .nav1 {
 	background-color: #ffffff;
 	float:left;
-	padding: 7px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
 	font-size: 14px;
 }
 .nav2 {
 	background-color: #ffffff;
 	border-left: 1px solid #cccccc;
 	float:left;
-	padding: 7px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
 	font-size: 14px;
 }
 #navlist {
@@ -108,7 +111,7 @@ p {
     width: 650px;
     margin: 40px 40px 0px 0px;
     position: relative;
-    top: 91px;
+    top: 73px;
     border-color: #cccccc;
     border-width: 1px;
     border-style: solid;
@@ -144,10 +147,11 @@ p {
 	text-align: justify;
 	font-size: 14px;
 }
+
 /*formatting the contact page*/
 .contact {
 	position: relative;
-	top: 131px;
+	top: 130px;
 	background: #ffffff;
 	color: #4aaaa5;
 	width: 650px;
@@ -188,7 +192,7 @@ textarea {
 /*styling the main area of the portfolio page*/
 .portfoliomain {
 	position: relative;
-	top: 131px;
+	top: 130px;
 	background: #ffffff;
 	color: #4aaaa5;
 	width: 650px;
@@ -224,8 +228,8 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	top: 92px;
-	left: 701px;
+	top: 74px;
+	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
     border-style: solid;
@@ -237,8 +241,8 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	bottom: 254px;
-	left: 701px;
+	bottom: 260px;
+	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
     border-style: solid;
@@ -248,8 +252,8 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	top: 132px;
-	left: 701px;
+	top: 0px;
+	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
     border-style: solid;
