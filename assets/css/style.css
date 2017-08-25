@@ -33,8 +33,13 @@ textarea {
    display: block;
    clear: both;
 }
-
-
+.arial {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.georgia {
+	font-family: 'Georgia', 'Times', "Times New Roman", serif;
+	font-weight: bold;
+}
 /*styling the top bar*/
 #top {
 	width: 100%;
@@ -49,6 +54,7 @@ textarea {
 	position: absolute;
 	top: 0px;
 	overflow: hidden;
+	z-index: 100
 	
 }
 #myname {
@@ -62,8 +68,11 @@ textarea {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     margin-left: 155px;
-	font-size: 22px;
-	font-family: 'Georgia', 'Times', "Times New Roman", serif;
+	
+}
+.name {
+	font-size: 24.5px;
+
 }
 /*stying the navigation bar*/
 #navigation {
@@ -74,6 +83,7 @@ textarea {
 	width:300px;
 	height: 91px;
 	padding: 35px 40px 5px 40px;
+	z-index: 200;
 
 }
 .nav1 {
@@ -81,8 +91,6 @@ textarea {
 	float:left;
 	padding: 0px 5px 0px 5px;
 	font-size: 14px;
-	font-family:'Georgia', Times, Times New Roman, serif;
-
 }
 .nav2 {
 	background-color: #ffffff;
@@ -90,7 +98,6 @@ textarea {
 	float:left;
 	padding: 0px 5px 0px 5px;
 	font-size: 14px;
-	font-family:'Georgia', Times, Times New Roman, serif;
 }
 #navlist {
 	float:left;
@@ -126,7 +133,6 @@ textarea {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #profile {
 	background-color: #ffffff;
@@ -137,7 +143,8 @@ textarea {
 .profiletextbox {
 	text-align: left;
 	padding: 25px ;
-	font-size: 14px;
+	font-size: 18px;
+	line-height: 27px
 }
 
 .profiletext {
@@ -164,17 +171,26 @@ textarea {
 .contacttext {
 	text-align: left;
 	color: #666666;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 14px;
 	padding: 6px 0px 6px 0px;
-	/*border-color: #cccccc;
-    border-width: 1px;
-    border-style: solid;*/
 }
 .contactbox {
 	padding:26px;
 }
-
+input {
+	width: 100%;
+}
+textarea {
+	width: 100%;
+}
+.submitbutton {
+	width: 100px;
+	height: 40px;
+	background: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	margin-top: 26px;
+	}
 /*styling the main area of the portfolio page*/
 .portfoliomain {
 	position: relative;
@@ -192,8 +208,7 @@ textarea {
 }
 .images {
 	margin-left: 73px;
-	width: 275;
-	height:208;
+	
 }
 .listtext {
 	position: relative;
@@ -203,17 +218,10 @@ textarea {
 	background: #4aaaa5;
 	text-align: center;
 	margin-left: 73px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #ffffff;
 	padding-top:12px;
 }
-/*styling the main area of the contact page*/
-input {
-	width: 100%;
-}
-textarea {
-	width: 100%;
-}
+
 /*Styling the sidebar.*/
 
 #sidebar {
@@ -222,7 +230,7 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	bottom: 110px;
+	top: 74px;
 	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
@@ -235,7 +243,7 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	bottom: 210px;
+	bottom: 260px;
 	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
@@ -246,7 +254,7 @@ textarea {
 	width: 264px;
 	height: 200px;
 	position: absolute;
-	bottom: 663px;
+	top: 0px;
 	left: 700px;
 	border-color: #cccccc;
     border-width: 1px;
@@ -283,6 +291,11 @@ textarea {
 }
 
 /*styling the footer*/
+#copyright { 
+	text-align: center;
+	padding-top: 25px;
+	font-size: 12px;
+	 }
 footer {
 	background-color: #666666;
 	color: #ffffff;
@@ -292,8 +305,3 @@ footer {
 	border-top-color: #4aaaa5;
 	border-top-style: solid;
 }
-#copyright { 
-	text-align: center;
-	padding-top: 25px;
-	font-size: 12px;
-	 }
