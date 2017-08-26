@@ -131,11 +131,11 @@ p {
 	background-color: #ffffff;
 	color: #444444;
 	float: left;
-	margin: 0px 20px 20px 0px;
+	margin: 0px 40px 12px 0px;
 }
 .profiletextbox {
 	text-align: left;
-	padding: 25px ;
+	padding: 50px ;
 	font-size: 18px;
 	line-height: 27px
 }
